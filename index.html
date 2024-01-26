@@ -51,11 +51,18 @@
       <main class="content">
         <section class="section-news">
           <div class="news">
-            <img
-              src="/assets/images/image-web-3-desktop.jpg"
-              alt="news image"
-              class="news_picture"
-            />
+            <picture>
+              <source
+                srcset="/assets/images/image-web-3-mobile.jpg"
+                media="(max-width: 500px)"
+              />
+              <img
+                srcset="/assets/images/image-web-3-desktop.jpg"
+                alt="news image"
+                class="news_picture"
+              />
+            </picture>
+
             <div class="news__text-box">
               <h1 class="news__heading">The Bright Future of Web 3.0?</h1>
               <div class="news__text">
